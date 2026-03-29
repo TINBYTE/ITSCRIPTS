@@ -72,7 +72,7 @@ All scripts support a `-h` / `--help` flag that prints usage information.
 
 ### sagex3/skills/
 
-Scripts for Sage X3 ERP skills and administration tasks will be added here.
+Training syllabi and skill references for Sage X3 ERP and related technologies (developer formation, GraphQL API, Power Platform).
 
 ## License
 
