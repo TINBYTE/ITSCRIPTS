@@ -10,7 +10,9 @@ ITSCRIPTS/
 ├── network/       # Network diagnostics and utilities
 ├── users/         # User account management scripts
 ├── backup/        # Backup and rotation scripts
-└── logs/          # Log analysis and maintenance scripts
+├── logs/          # Log analysis and maintenance scripts
+└── sagex3/
+    └── skills/    # Sage X3 ERP skills and administration scripts
 ```
 
 ## Requirements
@@ -67,6 +69,10 @@ All scripts support a `-h` / `--help` flag that prints usage information.
 |--------|-------------|
 | `log_analyzer.sh` | Summarise error/warning counts in a log file |
 | `log_cleaner.sh` | Delete or compress log files older than N days |
+
+### sagex3/skills/
+
+Scripts for Sage X3 ERP skills and administration tasks will be added here.
 
 ## License
 
