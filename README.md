@@ -12,7 +12,8 @@ ITSCRIPTS/
 ├── backup/        # Backup and rotation scripts
 ├── logs/          # Log analysis and maintenance scripts
 └── sagex3/
-    └── skills/    # Sage X3 ERP skills and administration scripts
+    ├── scripts/   # Helpful Bash scripts for Sage X3 administration
+    └── skills/    # Sage X3 ERP training syllabi and skill references
 ```
 
 ## Requirements
@@ -69,6 +70,14 @@ All scripts support a `-h` / `--help` flag that prints usage information.
 |--------|-------------|
 | `log_analyzer.sh` | Summarise error/warning counts in a log file |
 | `log_cleaner.sh` | Delete or compress log files older than N days |
+
+### sagex3/scripts/
+
+| Script | Description |
+|--------|-------------|
+| `x3_service_check.sh` | Check whether core Sage X3 services are running; optionally restart them |
+| `x3_log_analyzer.sh` | Scan X3 log/trace files for errors and warnings with per-file summaries |
+| `x3_backup.sh` | Create a timestamped archive of an X3 dossier directory with retention |
 
 ### sagex3/skills/
 
